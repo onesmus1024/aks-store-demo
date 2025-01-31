@@ -9,7 +9,7 @@
       <span class="hamburger-icon"></span>
     </button>
     <ul class="nav-links" :class="{ 'nav-links--open': isNavOpen }">
-      <li><router-link to="/" @click="closeNav">Products v4</router-link></li>
+      <li><router-link to="/" @click="closeNav">Products v6</router-link></li>
       <li><router-link to="/cart" @click="closeNav">Cart ({{ cartItemCount }})</router-link></li>
     </ul>
   </nav>
